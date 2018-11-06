@@ -50,7 +50,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Nutanix Tech Summit 2018'
+project = u'Nutanix Storage Solutions'
 copyright = u'2018 Nutanix'
 author = u'Nutanix Global Technical Enablement'
 
@@ -88,8 +88,7 @@ todo_include_todos = True
 # a list of builtin themes.
 #
 #html_theme = "sphinx_rtd_theme"
-html_theme = 'bootstrap'
-html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+#html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 
 # (Optional) Logo. Should be small enough to fit the navbar (ideally 24x24).
 # Path should be relative to the ``_static`` files directory.
