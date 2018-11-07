@@ -28,7 +28,7 @@ Select **Enable Access Based Enumeration** and **Self Service Restore** and clic
 
   .. figure:: https://s3.amazonaws.com/s3.nutanixworkshops.com/ts18/afs/15.png
 
-In the **XD** VM console, open ``\\TEAM##-AFS.ntnxlab.local`` in **File Explorer**.
+In the **XD** VM console, open ``\\*intials*-Files.ntnxlab.local`` in **File Explorer**.
 
   .. note::
 
@@ -42,7 +42,7 @@ Select the **Security** tab and click **Advanced**.
 
   .. figure:: https://s3.amazonaws.com/s3.nutanixworkshops.com/vdi_ahv/lab7/20.png
 
-Select **Users (TEAM##-AFS\\Users)** and click **Remove**.
+Select **Users (*intials*-Files\\Users)** and click **Remove**.
 
 Click **Add**.
 
@@ -100,7 +100,7 @@ Open ``Z:\`` in **File Explorer** and create multiple files, with at least one p
 
   .. figure:: https://s3.amazonaws.com/s3.nutanixworkshops.com/ts18/afs/19.png
 
-Open ``\\team##-afs.ntnxlab.local\home`` and observe your **%username%** directory is the only directory visible. Disable **Access Based Enumeration (ABE)** in **Prism > File Server > Share > home > Update** and try again.
+Open ``\\*intials*-Files.ntnxlab.local\home`` and observe your **%username%** directory is the only directory visible. Disable **Access Based Enumeration (ABE)** in **Prism > File Server > Share > home > Update** and try again.
 
 After ~2 hours, validate the presense of **Self Service Restore Snapshots** in **Prism > File Server > Share > home**.
 
