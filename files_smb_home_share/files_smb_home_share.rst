@@ -1,6 +1,8 @@
------------------------
-Acropolis File Services
------------------------
+.. _files_smb_home_share:
+
+----------------------------
+Files: Create SMB Home Share
+----------------------------
 
 Overview
 ++++++++
@@ -9,11 +11,7 @@ Overview
 
   Estimated time to complete: **1 HOUR**
 
-  **Due to limited resources, this lab should be completed as a group.**
-
-  AFS 3.0 requires AOS 5.6 or later and cannot be deployed on the AOS 5.5.0.6 cluster used for the remainder of Tech Summit labs. Refer to :ref:`cluster_details` to find the Cluster Virtual IP of the shared AOS 5.6 cluster assigned to your team. Do **NOT** deploy any additional VMs on the shared AOS 5.6 clusters.
-
-In this exercise you will use Prism to deploy Acropolis File Services (AFS), a native, distributed file server solution for Nutanix clusters. You will configure both SMB and NFS shares, and familiarize yourself with new features of the AFS offering.
+In this exercise you will use Files to configure a SMB share.
 
 Configuring SMB Home Share
 ++++++++++++++++++++++++++
