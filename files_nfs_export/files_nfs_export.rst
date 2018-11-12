@@ -22,7 +22,7 @@ In **Prism > File Server**, click **+ Share/Export**. Fill out the following fie
   - **Protocol** - NFS
   - **Share/Export Type** - Non-Sharded Directories
 
-  .. figure:: https://s3.amazonaws.com/s3.nutanixworkshops.com/ts18/afs/22.png
+.. figure:: images/
 
 Fill out the following fields and click **Create**:
 
@@ -31,7 +31,7 @@ Fill out the following fields and click **Create**:
   - Select **+ Add Client Exceptions**
   - **Clients with Read-Write Access** - *<Cluster IP Range>* (ex. 10.21.XX.*)
 
-  .. figure:: https://s3.amazonaws.com/s3.nutanixworkshops.com/ts18/afs/23.png
+.. figure:: images/
 
 Connect to NFS Export
 +++++++++++++++++++++
@@ -39,7 +39,7 @@ Connect to NFS Export
 Linux VM for NFS Client
 .......................
 
-Use the **Linux_VM-*initials* VM you created earlier in the "Deploying Workloads" lab.
+Use the **Linux_VM-*initials* ** VM you created earlier in the "Deploying Workloads" lab.
 
 If you have not deployed a Linux VM, follow this guide to deploy a CentOS7 VM:
 
@@ -106,19 +106,15 @@ The following command will add 100 2MB files filled with random data to ``/afsmn
 
 Return to **Prism > File Server > Share > logs** to monitor performance and usage.
 
-  .. figure:: https://s3.amazonaws.com/s3.nutanixworkshops.com/ts18/afs/25.png
+.. figure:: images/
 
 Takeaways
 +++++++++
 
   - Nutanix provides file services suitable for storing user profiles and application data via SMB or NFSv4.
-
   - AFS is capable of scaling up and out to meet workload requirements.
-
   - AFS has data protection built-in by leveraging native snapshots and replication. Files 3.1 will also feature integration with 3rd party backup solutions.
-
   - AFS can be deployed on the same Nutanix cluster as your virtual desktops, resulting in better utilization of storage capacity and the elimination of an additional storage silo.
-
   - Supporting mixed workloads (e.g. virtual desktops and file services) is further enhanced by Nutanix's ability to mix different node configurations within a single cluster, such as:
 
     - Mixing storage heavy and compute heavy nodes
