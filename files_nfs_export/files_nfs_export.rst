@@ -22,7 +22,7 @@ In **Prism > File Server**, click **+ Share/Export**. Fill out the following fie
   - **Protocol** - NFS
   - **Share/Export Type** - Non-Sharded Directories
 
-.. figure:: images/
+.. figure:: images/files_nfs_001
 
 Fill out the following fields and click **Create**:
 
@@ -31,7 +31,7 @@ Fill out the following fields and click **Create**:
   - Select **+ Add Client Exceptions**
   - **Clients with Read-Write Access** - *<Cluster IP Range>* (ex. 10.21.XX.*)
 
-.. figure:: images/
+.. figure:: images/files_nfs_002
 
 Connect to NFS Export
 +++++++++++++++++++++
@@ -107,18 +107,3 @@ The following command will add 100 2MB files filled with random data to ``/afsmn
 Return to **Prism > File Server > Share > logs** to monitor performance and usage.
 
 .. figure:: images/
-
-Takeaways
-+++++++++
-
-  - Nutanix provides file services suitable for storing user profiles and application data via SMB or NFSv4.
-  - AFS is capable of scaling up and out to meet workload requirements.
-  - AFS has data protection built-in by leveraging native snapshots and replication. Files 3.1 will also feature integration with 3rd party backup solutions.
-  - AFS can be deployed on the same Nutanix cluster as your virtual desktops, resulting in better utilization of storage capacity and the elimination of an additional storage silo.
-  - Supporting mixed workloads (e.g. virtual desktops and file services) is further enhanced by Nutanix's ability to mix different node configurations within a single cluster, such as:
-
-    - Mixing storage heavy and compute heavy nodes
-    - Expanding a cluster with Storage Only nodes to increase storage capacity without incurring additional virtualization licensing costs
-    - Mixing different generations of hardware (e.g. NX-3460-G6 + NX-6235-G5)
-    - Mixing all flash nodes with hybrid nodes
-    - Mixing NVIDIA GPU nodes with non-GPU nodes

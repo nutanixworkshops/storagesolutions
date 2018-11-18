@@ -7,7 +7,7 @@
   :hidden:
 
   files_deploy/files_deploy
-  files_smb_home_share/files_smb_home_share
+  files_smb_share/files_smb_share
   files_nfs_export/files_nfs_export
 
 .. toctree::
