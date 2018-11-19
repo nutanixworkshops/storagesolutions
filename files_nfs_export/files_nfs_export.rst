@@ -106,4 +106,4 @@ The following command will add 100 2MB files filled with random data to ``/afsmn
 
 Return to **Prism > File Server > Share > logs** to monitor performance and usage.
 
-.. figure:: images/
+.. figure:: images/files_nfs_003.png
