@@ -22,7 +22,7 @@ In **Prism > File Server**, click **+ Share/Export**. Fill out the following fie
   - **Protocol** - NFS
   - **Share/Export Type** - Non-Sharded Directories
 
-.. figure:: images/files_nfs_001
+.. figure:: images/files_nfs_001.png
 
 Fill out the following fields and click **Create**:
 
@@ -31,7 +31,7 @@ Fill out the following fields and click **Create**:
   - Select **+ Add Client Exceptions**
   - **Clients with Read-Write Access** - *<Cluster IP Range>* (ex. 10.21.XX.*)
 
-.. figure:: images/files_nfs_002
+.. figure:: images/files_nfs_002.png
 
 Connect to NFS Export
 +++++++++++++++++++++

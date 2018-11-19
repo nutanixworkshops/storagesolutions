@@ -22,11 +22,11 @@ In **Prism > File Server**, click **+ Share/Export**. Fill out the following fie
   - **Protocol** - SMB
   - **Share/Export Type** - General Purpose Share
 
-.. figure:: images/files_smb_001
+.. figure:: images/files_smb_001.png
 
 Select **Enable Access Based Enumeration** and **Self Service Restore** and click **Create**.
 
-.. figure:: images/files_smb_002
+.. figure:: images/files_smb_002.png
 
 Connect to SMB Share
 ++++++++++++++++++++
@@ -69,15 +69,15 @@ Connecting to SMB Share
   You can use any Windows VM joined to the ntnxlab.local domain to complete the following steps.
 
 
-Log into your Windows VM console, and open ``\\*intials*-Files.ntnxlab.local\marketing`` in **File Explorer**.
+Log into your Windows VM console, and open ``\\*intials*-Files.ntnxlab.local\`` in **File Explorer**.
 
-Right-click **home > Properties**.
+Right-click **marketing > Properties**.
 
-.. figure:: images/
+.. figure:: images/files_smb_004.png
 
 Select the **Security** tab and click **Advanced**.
 
-.. figure:: images/
+.. figure:: images/files_smb_005.png
 
 Select **Users (*intials*-Files\\Users)** and click **Remove**.
 
@@ -85,7 +85,7 @@ Click **Add**.
 
 Click **Select a principal** and specify **Everyone** in the **Object Name** field. Click **OK**.
 
-.. figure:: images/
+.. figure:: images/files_smb_006.png
 
 Fill out the following fields and click **OK**:
 
@@ -96,11 +96,11 @@ Fill out the following fields and click **OK**:
   - Select **Read**
   - Select **Write**
 
-.. figure:: images/
+.. figure:: images/files_smb_007.png
 
 Click **OK > OK > OK**.
 
-.. figure:: images/
+.. figure:: images/files_smb_008.png
 
 In **Prism > File Server > Share > marketing**, click **+ Add Quota Policy**. Fill out the following fields and click **Save**:
 
@@ -109,4 +109,4 @@ In **Prism > File Server > Share > marketing**, click **+ Add Quota Policy**. Fi
   - **Quota** - 10 GiB
   - **Enforcement Type** - Hard Limit
 
-.. figure:: images/files_smb_003
+.. figure:: images/files_smb_003.png
